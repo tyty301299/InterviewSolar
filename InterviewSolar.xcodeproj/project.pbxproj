@@ -16,6 +16,16 @@
 		3F2ADA432BA98788005314A5 /* InterviewSolarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ADA422BA98788005314A5 /* InterviewSolarTests.swift */; };
 		3F2ADA4D2BA98788005314A5 /* InterviewSolarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ADA4C2BA98788005314A5 /* InterviewSolarUITests.swift */; };
 		3F2ADA4F2BA98788005314A5 /* InterviewSolarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ADA4E2BA98788005314A5 /* InterviewSolarUITestsLaunchTests.swift */; };
+		3F2ADA5C2BA98980005314A5 /* SolarIOSInterview-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F2ADA5B2BA98980005314A5 /* SolarIOSInterview-2.json */; };
+		3F2ADA5F2BA990B8005314A5 /*  UITableVIew+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ADA5E2BA990B8005314A5 /*  UITableVIew+Ext.swift */; };
+		3F2ADA622BA99206005314A5 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ADA602BA99206005314A5 /* ItemTableViewCell.swift */; };
+		3F2ADA632BA99206005314A5 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2ADA612BA99206005314A5 /* ItemTableViewCell.xib */; };
+		3F2ADA692BA998A7005314A5 /* Instruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ADA682BA998A7005314A5 /* Instruct.swift */; };
+		3F2ADA6B2BA9993D005314A5 /* InstructViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ADA6A2BA9993D005314A5 /* InstructViewModel.swift */; };
+		3F2ADA712BA9A3B4005314A5 /* sf-compact-display-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2ADA6F2BA9A3B4005314A5 /* sf-compact-display-medium.otf */; };
+		3F2ADA732BA9A3DE005314A5 /* Font+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ADA722BA9A3DE005314A5 /* Font+Ext.swift */; };
+		3F2ADA752BAA04C9005314A5 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2ADA742BAA04C9005314A5 /* UIView+Ext.swift */; };
+		3F2ADA772BAAEAB7005314A5 /* sf-compact-display-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2ADA762BAAEAB7005314A5 /* sf-compact-display-regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		3F2ADA482BA98788005314A5 /* InterviewSolarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewSolarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2ADA4C2BA98788005314A5 /* InterviewSolarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewSolarUITests.swift; sourceTree = "<group>"; };
 		3F2ADA4E2BA98788005314A5 /* InterviewSolarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewSolarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F2ADA5B2BA98980005314A5 /* SolarIOSInterview-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "SolarIOSInterview-2.json"; sourceTree = "<group>"; };
+		3F2ADA5E2BA990B8005314A5 /*  UITableVIew+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " UITableVIew+Ext.swift"; sourceTree = "<group>"; };
+		3F2ADA602BA99206005314A5 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		3F2ADA612BA99206005314A5 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		3F2ADA682BA998A7005314A5 /* Instruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instruct.swift; sourceTree = "<group>"; };
+		3F2ADA6A2BA9993D005314A5 /* InstructViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructViewModel.swift; sourceTree = "<group>"; };
+		3F2ADA6F2BA9A3B4005314A5 /* sf-compact-display-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-compact-display-medium.otf"; sourceTree = "<group>"; };
+		3F2ADA722BA9A3DE005314A5 /* Font+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Ext.swift"; sourceTree = "<group>"; };
+		3F2ADA742BAA04C9005314A5 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		3F2ADA762BAAEAB7005314A5 /* sf-compact-display-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-compact-display-regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +119,14 @@
 		3F2ADA2A2BA98785005314A5 /* InterviewSolar */ = {
 			isa = PBXGroup;
 			children = (
-				3F2ADA2B2BA98785005314A5 /* AppDelegate.swift */,
-				3F2ADA2D2BA98785005314A5 /* SceneDelegate.swift */,
-				3F2ADA2F2BA98785005314A5 /* ViewController.swift */,
+				3F2ADA5B2BA98980005314A5 /* SolarIOSInterview-2.json */,
+				3F2ADA662BA99806005314A5 /* Application */,
+				3F2ADA652BA997E3005314A5 /* Controller */,
+				3F2ADA642BA997D2005314A5 /* Models */,
+				3F2ADA5D2BA99028005314A5 /* Extensions */,
+				3F2ADA6C2BA9A39C005314A5 /* Resources */,
 				3F2ADA312BA98785005314A5 /* Main.storyboard */,
-				3F2ADA342BA98788005314A5 /* Assets.xcassets */,
 				3F2ADA362BA98788005314A5 /* LaunchScreen.storyboard */,
-				3F2ADA392BA98788005314A5 /* Info.plist */,
 			);
 			path = InterviewSolar;
 			sourceTree = "<group>";
@@ -125,6 +146,71 @@
 				3F2ADA4E2BA98788005314A5 /* InterviewSolarUITestsLaunchTests.swift */,
 			);
 			path = InterviewSolarUITests;
+			sourceTree = "<group>";
+		};
+		3F2ADA5D2BA99028005314A5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3F2ADA5E2BA990B8005314A5 /*  UITableVIew+Ext.swift */,
+				3F2ADA722BA9A3DE005314A5 /* Font+Ext.swift */,
+				3F2ADA742BAA04C9005314A5 /* UIView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3F2ADA642BA997D2005314A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F2ADA682BA998A7005314A5 /* Instruct.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3F2ADA652BA997E3005314A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F2ADA672BA99812005314A5 /* SubView */,
+				3F2ADA2F2BA98785005314A5 /* ViewController.swift */,
+				3F2ADA6A2BA9993D005314A5 /* InstructViewModel.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F2ADA662BA99806005314A5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3F2ADA2B2BA98785005314A5 /* AppDelegate.swift */,
+				3F2ADA2D2BA98785005314A5 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3F2ADA672BA99812005314A5 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				3F2ADA602BA99206005314A5 /* ItemTableViewCell.swift */,
+				3F2ADA612BA99206005314A5 /* ItemTableViewCell.xib */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		3F2ADA6C2BA9A39C005314A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F2ADA392BA98788005314A5 /* Info.plist */,
+				3F2ADA342BA98788005314A5 /* Assets.xcassets */,
+				3F2ADA6D2BA9A3A1005314A5 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3F2ADA6D2BA9A3A1005314A5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3F2ADA762BAAEAB7005314A5 /* sf-compact-display-regular.otf */,
+				3F2ADA6F2BA9A3B4005314A5 /* sf-compact-display-medium.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +317,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F2ADA5C2BA98980005314A5 /* SolarIOSInterview-2.json in Resources */,
 				3F2ADA382BA98788005314A5 /* LaunchScreen.storyboard in Resources */,
 				3F2ADA352BA98788005314A5 /* Assets.xcassets in Resources */,
+				3F2ADA632BA99206005314A5 /* ItemTableViewCell.xib in Resources */,
+				3F2ADA772BAAEAB7005314A5 /* sf-compact-display-regular.otf in Resources */,
 				3F2ADA332BA98785005314A5 /* Main.storyboard in Resources */,
+				3F2ADA712BA9A3B4005314A5 /* sf-compact-display-medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +349,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F2ADA302BA98785005314A5 /* ViewController.swift in Sources */,
+				3F2ADA692BA998A7005314A5 /* Instruct.swift in Sources */,
 				3F2ADA2C2BA98785005314A5 /* AppDelegate.swift in Sources */,
+				3F2ADA6B2BA9993D005314A5 /* InstructViewModel.swift in Sources */,
+				3F2ADA732BA9A3DE005314A5 /* Font+Ext.swift in Sources */,
+				3F2ADA752BAA04C9005314A5 /* UIView+Ext.swift in Sources */,
+				3F2ADA622BA99206005314A5 /* ItemTableViewCell.swift in Sources */,
+				3F2ADA5F2BA990B8005314A5 /*  UITableVIew+Ext.swift in Sources */,
 				3F2ADA2E2BA98785005314A5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +516,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,12 +535,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4B7C4QH7DZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = InterviewSolar/Info.plist;
+				INFOPLIST_FILE = InterviewSolar/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,12 +564,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4B7C4QH7DZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = InterviewSolar/Info.plist;
+				INFOPLIST_FILE = InterviewSolar/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

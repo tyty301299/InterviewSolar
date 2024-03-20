@@ -16,6 +16,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
+    
+    func prime_divisor(n: Int){
+        var n = n
+        if Int(sqrt(Double(n))) > 2 {
+            for i in 2 ... Int(sqrt(Double(n))) {
+                if(n % i == 0){
+                    print("\(i)");
+                    while n % i == 0 {
+                        n = n / i;
+                    }
+                }
+            }
+        }
+       if n > 1{
+        print("\n : \(n)")
+       }
+    }
+    
+    func factorial(_ n: Int) -> Int {
+        var result = 2
+        for i in 4 ... n {
+            if i%2 == 0 {
+                result *= i
+            }
+        }
+        return result
+    }
 
     // MARK: UISceneSession Lifecycle
 
