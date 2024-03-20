@@ -85,7 +85,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         cell.setupData(viewModel.instructsData[indexPath.section].instructs[indexPath.row])
         cell.upImageViewClick = {
             self.viewModel.instructsData[indexPath.section].instructs[indexPath.row].collapsed = !(self.viewModel.instructsData[indexPath.section].instructs[indexPath.row].collapsed ?? false)
-            cell.upImageView.image = self.viewModel.instructsData[indexPath.section].instructs[indexPath.row].collapsed ?? false ? UIImage(named: "ic_down") : UIImage(named: "ic_up")
+            cell.upImageView.image = self.viewModel.instructsData[indexPath.section].instructs[indexPath.row].collapsed ?? false ?  UIImage(named: "ic_up") : UIImage(named: "ic_down")
             self.connectTableView.reloadData()
         }
 
@@ -94,11 +94,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let data = viewModel.instructsData[indexPath.section].instructs[indexPath.row]
-        print("Count Index : \(indexPath.row) : \(data.title?.count) --- \(data.description?.count)")
+
         if viewModel.instructsData[indexPath.section].instructs[indexPath.row].collapsed ?? false {
             return (CGFloat(ceil(Double(data.title?.count ?? 0) / 44.0) * 15.0) + CGFloat(ceil(Double(data.description?.count ?? 0) / 53.0) * 20.0) + 54.0)
         } else {
-            print("show : \(ceil(Double(data.title?.count ?? 0) / 44.0)) --- \(CGFloat(ceil(Double(data.title?.count ?? 0) / 44.0) * 15.0))")
             return CGFloat(ceil(Double(data.title?.count ?? 0) / 44.0) * 15.0 + 44.0)
         }
     }

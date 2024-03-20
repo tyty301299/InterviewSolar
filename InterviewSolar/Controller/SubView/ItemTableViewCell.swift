@@ -29,7 +29,7 @@ class ItemTableViewCell: UITableViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        containerView.addShadow(radius: 8.0, color: (UIColor(named: "backgroundShadow")?.withAlphaComponent(0.15))!, offset: .init(width: 0, height: 0), opacity: 0.08)
+        containerView.addShadow(radius: 8.0, color: (UIColor(named: "backgroundShadow")?.withAlphaComponent(0.16))!, offset: .init(width: 0, height: 0), opacity: 0.5)
         
     }
     
@@ -43,7 +43,7 @@ class ItemTableViewCell: UITableViewCell {
     }
     
     func setupData(_ data : Instruct) {
-        upImageView.image = data.collapsed ?? false ? UIImage(named: "ic_down") : UIImage(named: "ic_up")
+        upImageView.image = data.collapsed ?? false ?  UIImage(named: "ic_up") : UIImage(named: "ic_down")
         titleLabel.text = "\((data.index ?? 0) + 1). \(data.title ?? "")"
         descriptionLabel.text = data.description
         if data.collapsed ?? false {
